@@ -1,5 +1,5 @@
+import 'package:chapter7_Vannaxay_sangpachan_2cw3animationcontroller/home.dart';
 import 'package:flutter/material.dart';
-import 'homepage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: homepage(),
+      home: home(),
     );
   }
 }
